@@ -1,0 +1,26 @@
+{
+  "name": "@kisaragieffective/disallowed-identifiable-error-code",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "launch": "pnpm exec tsc && node ./dist/index.js"
+  },
+  "packageManager": "pnpm@9.7.0+sha512.dc09430156b427f5ecfc79888899e1c39d2d690f004be70e05230b72cb173d96839587545d09429b55ac3c429c801b4dc3c0e002f653830a420fa2dd4e3cf9cf",
+  "dependencies": {
+    "@types/yargs": "^17.0.33",
+    "@typescript-eslint/utils": "^8.1.0",
+    "jsonc": "^2.0.0",
+    "ts-morph": "^23.0.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.4.0",
+    "@typescript-eslint/parser": "^8.1.0",
+    "eslint-plugin-rulesdir": "^0.2.2",
+    "globals": "^15.9.0",
+    "typescript": "^5.5.4"
+  },
+  "type": "module"
+}
